@@ -11,6 +11,7 @@
     <form id="vendor-form">
         <label for="vendor">Vendor:</label>
         <select id="vendor" name="vendor">
+            <option></option>
             <option value="rogul@danskebank.lt">Test Vendor</option>
             <option value="Joupin">Rinta-Joupin Autoliike</option>
             <option value="Jarmo">Jarmo Rinta-Jouppi</option>
@@ -19,9 +20,18 @@
         <br>
         <br>
     </form>
+    <span id="emailPreview">Email: </span>
+    <br><br>
     <label for="car-number">Car Number:</label>
     <input type="text" id="car-number" name="car-number" required>
     <br><br>
+    <h3>Instructions:</h3>
+    <ol>
+        <li>Select the vendor from the dropdown menu.</li>
+        <li>Enter the car number in the text field.</li>
+        <li>Click the "Send Email" button to generate and open the email in your default email client.</li>
+        <li>CHANGE THE SENDER EMAIL TO MYYJALIIKE!</li>
+    </ol>
     <button id="emailButton" type="button">Send Email</button>
     <div style="height: 200px;"> <!--Spacer to push version to bottom-->
         <footer style="position: absolute; bottom: 0;">Version 1.0.3 by Rokas</footer>
