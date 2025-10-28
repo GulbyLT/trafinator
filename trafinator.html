@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trafinator</title>
+</head>
+<body>
+    <h1>Welcome to the Trafinator</h1>
+    <h2>Pick a vendor and enter the car number</h2> 
+    <form id="vendor-form">
+        <label for="vendor">Vendor:</label>
+        <select id="vendor" name="vendor">
+            <option value="Joupin">Rinta-Joupin Autoliike</option>
+            <option value="Jarmo">Jarmo Rinta-Jouppi</option>
+            <option value="SAKA">SAKA OY</option>
+            <option value="test">Test Vendor</option>
+        </select>
+        <br>
+        <label for="car-number">Car Number:</label>
+        <input type="text" id="car-number" name="car-number" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
